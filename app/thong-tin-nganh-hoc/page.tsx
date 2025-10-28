@@ -8,7 +8,7 @@ import { majors } from "@/app/data/majors";
 import { useEffect, useState } from "react";
 
 export default function MajorsPage() {
-  const [visibleSections, setVisibleSections] = useState<{ [key: string]: boolean }>({});
+  const [visibleSections, setVisibleSections] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,8 +16,8 @@ export default function MajorsPage() {
       sections.forEach((section) => {
         const rect = section.getBoundingClientRect();
         const id = section.getAttribute("data-section-id");
-        if (rect.top < window.innerHeight * 0.75) {
-          setVisibleSections((prev) => ({ ...prev, [id!]: true }));
+        if (id && rect.top < window.innerHeight * 0.75) {
+          setVisibleSections((prev) => ({ ...prev, [id]: true }));
         }
       });
     };
