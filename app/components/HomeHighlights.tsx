@@ -75,7 +75,7 @@ export default function HomeHighlights() {
         }`}
       >
         <div className="featured-service-card bg-rose-600 text-white p-6 shadow">
-          <h3 className="text-lg font-semibold">Tư vấn h�� sơ</h3>
+          <h3 className="text-lg font-semibold">Tư vấn hồ sơ</h3>
           <p className="text-sm opacity-90 mt-1">Hỗ trợ miễn phí chuẩn bị và xử lý hồ sơ du học.</p>
         </div>
         <div className="featured-service-card bg-sky-700 text-white p-6 shadow">
@@ -91,7 +91,7 @@ export default function HomeHighlights() {
       {/* Featured Majors */}
       <section data-section-id="majors" className="mt-12">
         <h2 className="text-2xl font-semibold text-sky-900">Ngành học nổi bật</h2>
-        <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+        <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
           {majors.map((m, idx) => (
             <figure
               key={m.title}
@@ -105,18 +105,13 @@ export default function HomeHighlights() {
                   src={m.src}
                   alt={m.title}
                   fill
-                  sizes="(max-width:768px) 50vw, 20vw"
+                  sizes="(max-width:768px) 50vw, 16.66vw"
                   className="object-cover transition-transform duration-300 group-hover:scale-110"
                 />
               </div>
               <figcaption className="p-3 text-sm font-medium text-slate-800">{m.title}</figcaption>
             </figure>
           ))}
-        </div>
-        <div className="mt-4">
-          <Link href="/thong-tin-nganh-hoc" className="text-sm text-sky-700 hover:underline">
-            Xem tất cả ngành học
-          </Link>
         </div>
       </section>
 
