@@ -102,6 +102,18 @@ body {
   }
 }
 
+/* Dropdown slide down animation */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Pulse effect on hover */
 @keyframes pulse {
   0%, 100% {
