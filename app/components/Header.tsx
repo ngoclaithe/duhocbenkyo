@@ -60,9 +60,7 @@ export default function Header() {
                 onClick={() => setMajorsOpen(!majorsOpen)}
               >
                 <span>Thông tin ngành học</span>
-                <svg className={`h-4 w-4 transition-transform duration-300 ${majorsOpen ? 'rotate-180' : ''}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
-                </svg>
+                <span className={`transition-transform duration-300 inline-block ${majorsOpen ? 'rotate-180' : ''}`}>^</span>
               </button>
 
               {majorsOpen && (
