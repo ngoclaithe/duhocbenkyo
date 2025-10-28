@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function HomeHighlights() {
   const majors = [
-    { src: "/images/cntt.jpg", title: "Công nghệ thông tin" },
-    { src: "/images/cokhi.jpg", title: "Cơ khí" },
-    { src: "/images/dieuduong.jpg", title: "Điều dưỡng" },
-    { src: "/images/nhahang.jpg", title: "Nhà hàng - Khách sạn" },
-    { src: "/images/xaydung.jpg", title: "Xây dựng" },
+    { src: "/tuvanduhoc/public/images/cntt.jpg", title: "Công nghệ thông tin" },
+    { src: "/tuvanduhoc/public/images/cokhi.jpg", title: "Cơ khí" },
+    { src: "/tuvanduhoc/public/images/dieuduong.jpg", title: "Điều dưỡng" },
+    { src: "/tuvanduhoc/public/images/nhahang.jpg", title: "Nhà hàng - Khách sạn" },
+    { src: "/tuvanduhoc/public/images/xaydung.jpg", title: "Xây dựng" },
   ];
   const schools = [
     { src: "/images/mitokokusai.jpg", title: "Mito Kokusai" },
