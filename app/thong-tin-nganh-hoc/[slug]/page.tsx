@@ -1,16 +1,18 @@
-"use client";
-
-import { useParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/app/components/Header";
 import Footer from "@/app/components/Footer";
 import { getMajorBySlug, getAllMajorSlugs, majors } from "@/app/data/majors";
-import { useEffect, useState } from "react";
+import MajorDetailContent from "./major-detail-content";
 
-export default function MajorDetailPage() {
-  const params = useParams();
-  const slug = params?.slug as string;
+export function generateStaticParams() {
+  return getAllMajorSlugs().map((slug) => ({
+    slug,
+  }));
+}
+
+export default function MajorDetailPage({ params }: { params: { slug: string } }) {
+  const slug = params.slug;
   const major = getMajorBySlug(slug);
   const [visibleSections, setVisibleSections] = useState<{ [key: string]: boolean }>({});
 
