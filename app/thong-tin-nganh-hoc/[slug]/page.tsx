@@ -11,8 +11,8 @@ export function generateStaticParams() {
   }));
 }
 
-export default async function MajorDetailPage({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
+export default function MajorDetailPage({ params }: { params: { slug: string } }) {
+  const slug = params.slug;
   const major = getMajorBySlug(slug);
 
   if (!major) {
