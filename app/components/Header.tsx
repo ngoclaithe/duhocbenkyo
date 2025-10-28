@@ -120,27 +120,30 @@ export default function Header() {
               <Link className="py-2 border-t" href="/du-hoc-nhat-ban/truong-nhat-ngu" onClick={() => setMobileOpen(false)}>Du học Nhật Bản</Link>
               <div className="py-2 border-t">
                 <button
-                  className="w-full text-left flex items-center justify-between hover:text-sky-700"
+                  className="w-full text-left flex items-center justify-between hover:text-sky-700 px-2 py-2 rounded transition-colors duration-150"
                   onClick={() => setMajorsOpen(!majorsOpen)}
                 >
-                  Thông tin ngành học
-                  <svg className={`h-4 w-4 transition-transform ${majorsOpen ? 'rotate-180' : ''}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <span className="font-medium">Thông tin ngành học</span>
+                  <svg className={`h-4 w-4 transition-transform duration-300 ${majorsOpen ? 'rotate-180' : ''}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
                   </svg>
                 </button>
                 {majorsOpen && (
-                  <div className="mt-2 pl-4 space-y-2">
-                    {majors.map((major) => (
+                  <div className="mt-3 pl-4 space-y-1 bg-sky-50/50 rounded-md p-3 -mx-2">
+                    {majors.map((major, idx) => (
                       <Link
                         key={major.id}
                         href={`/thong-tin-nganh-hoc/${major.slug}`}
-                        className="block py-1 hover:text-sky-700"
+                        className="flex items-center gap-2 py-2 px-2 hover:bg-sky-100 rounded transition-colors duration-150"
                         onClick={() => {
                           setMobileOpen(false);
                           setMajorsOpen(false);
                         }}
                       >
-                        {major.title}
+                        <span className="text-base">
+                          {idx === 0 ? '🏥' : idx === 1 ? '💻' : idx === 2 ? '🍽️' : idx === 3 ? '🏗️' : idx === 4 ? '🌾' : '⚕️'}
+                        </span>
+                        <span className="text-sky-900 font-medium">{major.title}</span>
                       </Link>
                     ))}
                   </div>
