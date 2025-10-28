@@ -91,7 +91,7 @@ export default function HomeHighlights() {
       {/* Featured Majors */}
       <section data-section-id="majors" className="mt-12">
         <h2 className="text-2xl font-semibold text-sky-900">Ngành học nổi bật</h2>
-        <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4">
           {majors.map((m, idx) => (
             <figure
               key={m.title}
@@ -117,19 +117,21 @@ export default function HomeHighlights() {
 
       {/* Japan Study Image Section */}
       <section data-section-id="japan-study" className="mt-16">
-        <div
-          className={`japan-study-container relative h-64 sm:h-96 rounded-lg overflow-hidden shadow-lg transition-all duration-700 ${
-            visibleSections["japan-study"] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
-        >
-          <Image
-            src="/images/duhocnhatban.png"
-            alt="Du học Nhật Bản"
-            fill
-            className="object-cover transition-transform duration-500 hover:scale-105"
-          />
-          <div className="absolute inset-0 bg-black/30 hover:bg-black/20 transition-colors duration-300" />
-        </div>
+        <Link href="/du-hoc-nhat-ban/truong-nhat-ngu">
+          <div
+            className={`japan-study-container relative h-64 sm:h-96 rounded-lg overflow-hidden shadow-lg transition-all duration-700 cursor-pointer ${
+              visibleSections["japan-study"] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
+          >
+            <Image
+              src="/images/duhocnhatban.png"
+              alt="Du học Nhật Bản"
+              fill
+              className="object-cover transition-transform duration-500 hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-black/30 hover:bg-black/20 transition-colors duration-300" />
+          </div>
+        </Link>
       </section>
 
       {/* Partners Section */}
