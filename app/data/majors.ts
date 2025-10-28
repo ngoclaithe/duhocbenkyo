@@ -76,12 +76,12 @@ CEO Dịch Vụ tự hào là một trong những doanh nghiệp đầu tiên đ
     title: "Công nghệ thông tin",
     shortDescription: "Du học Nhật Bản ngành công nghệ thông tin với cơ hội làm việc tại các công ty hàng đầu",
     image: "/images/cntt.jpg",
-    description: "Đi du học Nhật Bản ngành công ngh�� thông tin năm 2018 – 2019 ở tại Hà Nội với những cơ hội phát triển sự nghiệp tuyệt vời",
+    description: "Đi du học Nhật Bản ngành công nghệ thông tin năm 2018 – 2019 ở tại Hà Nội với những cơ hội phát triển sự nghiệp tuyệt vời",
     content: `Trong cuộc sống hiện đại, công nghệ thông tin đang ngày càng chứng tỏ sức lan truyền rộng rãi của mình. Hầu hết mọi thứ hàng ngày của chúng ta đều có liên quan tới công nghệ thông tin. Trong khi đó, nguồn nhân lực được đào tạo bài bản về ngành này thì lại đang trong tình trạng khan hiếm trầm trọng. Chính vì thế, du học ngành công nghệ thông tin tại Nhật Bản đang trở thành một xu thế mới, được nhiều học sinh lựa chọn để theo đuổi.
 
 Vì sao nên học ngành công nghệ thông tin khi sang du học Nhật Bản?
 
-Thứ nhất, khi nhắc tới đất nước Nhật Bản, chúng ta nhắc tới một cường quốc vững mạnh về công nghệ thông tin, với những sáng tạo nổi trội đi đầu thế giới. Không khó để có thể kể tên một số thương hiệu quen thuộc và được ưa dùng khắp mọi nơi như: Sony, Panasonic, Toshiba, Hitachi, Fujitsu… Hơn thế nữa, Nhật Bản còn được biết đến với vô số phần mềm điện tử, máy tính, công nghệ cao, vô cùng hữu ích và được nhi��u người ưa dùng. Chính những điều đó đã tạo ra sức hút cực mạnh đối với ngành công nghệ thông tin khi các bạn học sinh đi du học Nhật Bản.
+Thứ nhất, khi nhắc tới đất nước Nhật Bản, chúng ta nhắc tới một cường quốc vững mạnh về công nghệ thông tin, với những sáng tạo nổi trội đi đầu thế giới. Không khó để có thể kể tên một số thương hiệu quen thuộc và được ưa dùng khắp mọi nơi như: Sony, Panasonic, Toshiba, Hitachi, Fujitsu… Hơn thế nữa, Nhật Bản còn được biết đến với vô số phần mềm điện tử, máy tính, công nghệ cao, vô cùng hữu ích và được nhiều người ưa dùng. Chính những điều đó đã tạo ra sức hút cực mạnh đối với ngành công nghệ thông tin khi các bạn học sinh đi du học Nhật Bản.
 
 Không phải ngẫu nhiên mà Nhật Bản đạt được những thành công đáng chú ý như vậy. Những thành quả đó là do chính phủ Nhật Bản đã ra sức đầu tư vào đào tạo nhân lực cho công nghệ thông tin. Quốc gia này từng bỏ ra tới 300 triệu USD để phổ cập tin học cho tất cả các trường học, và luôn luôn nâng cấp trang thiết bị dạy học môn tin học trong các nhà trường nhằm tạo ra một môi trường chuyên nghiệp và hiện đại nhất cho học sinh phát triển kỹ năng của mình. Chính vì vậy mà các trường chuyên về đào tạo công nghệ thông tin ở xứ sở hoa anh đào luôn được đánh giá là có chất lượng tốt và là cái nôi đào tạo ra các thiên tài sáng chế cho cả thế giới.
 
@@ -100,7 +100,7 @@ Nếu các bạn quyết định sẽ ở lại Nhật Bản làm việc thì đ
 Điều kiện du học Nhật Bản ngành công nghệ thông tin là gì?
 
 Nếu bạn muốn thử sức theo đuổi công nghệ thông tin ở quê hương núi Phú Sĩ thì bạn cần đáp ứng được các yêu cầu sau:
-- Đã tốt nghiệp trung học phổ thông nếu muốn du học hệ đại học và đã tốt nghiệp hệ đại học hoặc cao đẳng nếu muốn du học Thạc sĩ
+- Đã tốt nghiệp trung học phổ thông n��u muốn du học hệ đại học và đã tốt nghiệp hệ đại học hoặc cao đẳng nếu muốn du học Thạc sĩ
 - Kết quả học tập trung học phổ thông hoặc cao đẳng, đại học phải đạt loại khá trở lên
 - Ít nhất phải có chứng chỉ N2 tiếng Nhật hoặc có chứng chỉ 5.0 IELTS trở lên.
 - Phải vượt qua kỳ thi du học Nhật Bản được tổ chức tại Việt Nam. Các bạn học sinh có thể đăng ký thi tại một số địa điểm tại Việt Nam như Trường Đại học Ngoại Thương (Hà Nội), Trung tâm hợp tác nguồn nhân lực Việt Nam- Nhật B���n (TP Hồ Chí Minh) và Trường đại học Khoa học Xã hội và Nhân văn (TP Hồ Chí Minh)
@@ -189,11 +189,11 @@ Khi lựa chọn du học Nhật Bản ngành du lịch nhà hàng khách sạn 
     slug: "xay-dung-kien-truc",
     title: "Xây dựng - Kiến trúc",
     shortDescription: "Học ngành xây dựng và kiến trúc tại Nhật Bản với cơ sở hạ tầng hiện đại",
-    image: "/images/architecture.jpg",
+    image: "/images/xaydung.jpg",
     description: "Du học Nhật Bản ngành xây dựng kiến trúc - Nước tiên phong trong công nghệ xây dựng thế giới",
     content: `Nhật Bản được biết đến là một đất nước có nền công nghiệp xây dựng vô cùng phát triển và tiên tiến. Đây là một trong những quốc gia có nhiều tòa nhà chọc trời, cầu treo hiện đại nhất trên thế giới. Nếu bạn đam mê kiến trúc và xây dựng, du học Nhật Bản sẽ là lựa chọn tuyệt vời để phát triển sự nghiệp của bạn.
 
-Các trường đại học tại Nh���t Bản cung cấp các chương trình đào tạo chất lượng cao về xây dựng, kiến trúc, và thiết kế nội thất. Sinh viên sẽ được học tập từ các giáo sư nổi tiếng, sử dụng các thiết bị và công nghệ mới nhất trong ngành.
+Các trường đại học tại Nhật Bản cung cấp các chương trình đào tạo chất lượng cao về xây dựng, kiến trúc, và thiết kế nội thất. Sinh viên sẽ được học tập từ các giáo sư nổi tiếng, sử dụng các thiết bị và công nghệ mới nhất trong ngành.
 
 Với nền kinh tế mạnh mẽ và nhu cầu lao động cao, các cử nhân ngành xây dựng tốt nghiệp từ Nhật Bản được các công ty lớn trên thế giới cấp rất cao. Lương khởi điểm cho vị trí kỹ sư xây dựng tại Nhật Bản và quốc tế rất cạnh tranh.
 
@@ -211,7 +211,7 @@ Du học Nhật Bản ngành xây dựng cũng mở ra cơ hội để bạn h�
     benefits: {
       title: "Lợi ích của chương trình",
       items: [
-        "Học tập các công nghệ xây d���ng tiên tiến nhất",
+        "Học tập các công nghệ xây dựng tiên tiến nhất",
         "Thực tập tại các công ty xây dựng lớn",
         "Cơ hội việc làm tại Nhật Bản và quốc tế",
         "Lương cao và điều kiện làm việc tốt",
@@ -247,7 +247,7 @@ Nông nghiệp công nghệ cao không chỉ là một lĩnh vực kinh tế qua
       title: "Lợi ích của chương trình",
       items: [
         "Học tập công nghệ canh tác hiện đại và bền vững",
-        "Thực tập tại các trang trại và công ty nông nghiệp lớn",
+        "Thực tập tại các trang trại v�� công ty nông nghiệp lớn",
         "Cơ hội khởi nghiệp với công nghệ nông nghiệp",
         "Lương tốt tại Nhật Bản và quốc tế",
         "Đóng góp vào phát triển bền vững và an ninh lương thực"
@@ -263,7 +263,7 @@ Nông nghiệp công nghệ cao không chỉ là một lĩnh vực kinh tế qua
     description: "Du học Nhật Bản ngành y tế - Học tập y khoa tại quốc gia có nền y tế hàng đầu thế giới",
     content: `Hệ thống y tế của Nhật Bản được xem là một trong những hệ thống y tế tốt nhất trên thế giới, với công nghệ tân tiến, các bác sĩ giàu kinh nghiệm, và mức độ chăm sóc bệnh nhân xuất sắc. Du học ngành y tế tại Nhật Bản cung cấp cho bạn cơ hội học tập những kiến thức y học hiện đại và kỹ năng lâm sàng cao cấp.
 
-Các trường đại học y khoa tại Nhật Bản cung cấp các chương trình đào tạo bao gồm y khoa, điều dưỡng, dược học, kỹ thuật y tế, và phục hồi chức năng. Sinh viên sẽ được học t���p từ các giáo sư hàng đầu và thực tập tại các bệnh viện lớn nhất của Nhật Bản.
+Các trường đại học y khoa tại Nhật Bản cung cấp các chương trình đào tạo bao gồm y khoa, điều dưỡng, dược học, kỹ thuật y tế, và phục hồi chức năng. Sinh viên sẽ được học tập từ các giáo sư hàng đầu và thực tập tại các bệnh viện lớn nhất của Nhật Bản.
 
 Sau khi tốt nghiệp, bạn có cơ hội làm việc tại các bệnh viện, phòng khám, trung tâm nghiên cứu y tế, hoặc công ty dược phẩm. Mức lương cho các chuyên gia y tế tại Nhật Bản rất cạnh tranh, đặc biệt là các vị trí chuyên khoa.
 
