@@ -14,23 +14,6 @@ export function generateStaticParams() {
 export default function MajorDetailPage({ params }: { params: { slug: string } }) {
   const slug = params.slug;
   const major = getMajorBySlug(slug);
-  const [visibleSections, setVisibleSections] = useState<{ [key: string]: boolean }>({});
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = document.querySelectorAll("[data-section-id]");
-      sections.forEach((section) => {
-        const rect = section.getBoundingClientRect();
-        const id = section.getAttribute("data-section-id");
-        if (rect.top < window.innerHeight * 0.75) {
-          setVisibleSections((prev) => ({ ...prev, [id!]: true }));
-        }
-      });
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   if (!major) {
     return (
