@@ -129,28 +129,35 @@ export default function Header() {
               <Link className="py-2 border-t" href="/du-hoc-nhat-ban/truong-nhat-ngu" onClick={() => setMobileOpen(false)}>Du học Nhật Bản</Link>
               <div className="py-2 border-t">
                 <button
-                  className="w-full text-left flex items-center justify-between hover:text-sky-700 px-2 py-2 rounded transition-colors duration-150"
+                  className="w-full text-left flex items-center justify-between hover:text-sky-700 px-2 py-2 rounded hover:bg-sky-50 transition-all duration-300"
                   onClick={() => setMajorsOpen(!majorsOpen)}
                 >
-                  <span className="font-medium">Thông tin ngành học</span>
-                  <span className={`transition-transform duration-300 inline-block ${majorsOpen ? 'rotate-180' : ''}`}>^</span>
+                  <span className="font-semibold">Thông tin ngành học</span>
+                  <span className={`text-sm transition-transform duration-500 origin-center ${majorsOpen ? 'rotate-180 scale-110' : ''}`}>▼</span>
                 </button>
                 {majorsOpen && (
-                  <div className="mt-3 pl-4 space-y-1 bg-sky-50/50 rounded-md p-3 -mx-2">
+                  <div className="mt-2 space-y-1 bg-gradient-to-br from-sky-50 to-blue-50 rounded-md p-3 -mx-2 border border-sky-100 animate-in fade-in zoom-in-95 duration-300">
                     {majors.map((major, idx) => (
                       <Link
                         key={major.id}
                         href={`/thong-tin-nganh-hoc/${major.slug}`}
-                        className="flex items-center gap-2 py-2 px-2 hover:bg-sky-100 rounded transition-colors duration-150"
+                        className="flex items-start gap-3 py-2.5 px-3 hover:bg-sky-100 rounded-md transition-all duration-200 group/mobile"
                         onClick={() => {
                           setMobileOpen(false);
                           setMajorsOpen(false);
                         }}
+                        style={{
+                          animation: majorsOpen ? `slideDown 0.3s ease-out ${idx * 30}ms forwards` : 'none',
+                          opacity: majorsOpen ? 1 : 0,
+                        }}
                       >
-                        <span className="text-base">
+                        <span className="text-lg flex-shrink-0">
                           {idx === 0 ? '🏥' : idx === 1 ? '💻' : idx === 2 ? '🍽️' : idx === 3 ? '🏗️' : idx === 4 ? '🌾' : '⚕️'}
                         </span>
-                        <span className="text-sky-900 font-medium">{major.title}</span>
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm font-semibold text-sky-900 group-hover/mobile:text-sky-700 truncate">{major.title}</p>
+                          <p className="text-xs text-slate-600 group-hover/mobile:text-slate-700 line-clamp-1 mt-0.5">{major.shortDescription}</p>
+                        </div>
                       </Link>
                     ))}
                   </div>
