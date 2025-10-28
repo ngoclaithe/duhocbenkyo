@@ -49,7 +49,7 @@ export default function Header() {
           <nav className="hidden sm:flex items-center gap-6 text-sm font-medium">
             <Link className="hover:text-sky-700" href="/">Trang chủ</Link>
             <Link className="hover:text-sky-700" href="/gioi-thieu">Giới thiệu</Link>
-            <Link className="hover:text-sky-700" href="/du-hoc-nhat-ban">Du học Nhật Bản</Link>
+            <Link className="hover:text-sky-700" href="/du-hoc-nhat-ban/truong-nhat-ngu">Du học Nhật Bản</Link>
             <Link className="hover:text-sky-700" href="/thong-tin-nganh-hoc">Thông tin ngành học</Link>
             <Link className="hover:text-sky-700" href="/tin-tuc">Tin tức</Link>
             <Link className="hover:text-sky-700" href="/lien-he">Liên hệ</Link>
@@ -70,7 +70,7 @@ export default function Header() {
             <div className="flex flex-col gap-3 text-sm font-medium">
               <Link className="py-2 border-t" href="/" onClick={() => setMobileOpen(false)}>Trang chủ</Link>
               <Link className="py-2 border-t" href="/gioi-thieu" onClick={() => setMobileOpen(false)}>Giới thiệu</Link>
-              <Link className="py-2 border-t" href="/du-hoc-nhat-ban" onClick={() => setMobileOpen(false)}>Du học Nhật Bản</Link>
+              <Link className="py-2 border-t" href="/du-hoc-nhat-ban/truong-nhat-ngu" onClick={() => setMobileOpen(false)}>Du học Nhật Bản</Link>
               <Link className="py-2 border-t" href="/thong-tin-nganh-hoc" onClick={() => setMobileOpen(false)}>Thông tin ngành học</Link>
               <Link className="py-2 border-t" href="/tin-tuc" onClick={() => setMobileOpen(false)}>Tin tức</Link>
               <Link className="py-2 border-t" href="/lien-he" onClick={() => setMobileOpen(false)}>Liên hệ</Link>
