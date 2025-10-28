@@ -4,14 +4,15 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Footer() {
-  const [snowflakes, setSnowflakes] = useState<Array<{ id: number; left: number; delay: number; duration: number }>>([]);
+  const [snowflakes, setSnowflakes] = useState<Array<{ id: number; left: number; delay: number; duration: number; size: number }>>([]);
 
   useEffect(() => {
-    const flakes = Array.from({ length: 50 }, (_, i) => ({
+    const flakes = Array.from({ length: 80 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
-      delay: Math.random() * 2,
-      duration: 8 + Math.random() * 4,
+      delay: Math.random() * 5,
+      duration: 10 + Math.random() * 8,
+      size: 8 + Math.random() * 12,
     }));
     setSnowflakes(flakes);
   }, []);
@@ -19,7 +20,7 @@ export default function Footer() {
   return (
     <footer className="footer-container bg-sky-900 text-white mt-16 relative overflow-hidden">
       {/* Snow falling effect */}
-      <div className="snowflake-container absolute inset-0 pointer-events-none">
+      <div className="snowflake-container absolute inset-0 pointer-events-none z-0">
         {snowflakes.map((flake) => (
           <div
             key={flake.id}
@@ -27,8 +28,8 @@ export default function Footer() {
             style={{
               left: `${flake.left}%`,
               animation: `snowfall ${flake.duration}s linear ${flake.delay}s infinite`,
-              opacity: 0.8,
-              fontSize: `${8 + Math.random() * 8}px`,
+              opacity: 0.9,
+              fontSize: `${flake.size}px`,
             }}
           >
             ❄
@@ -37,7 +38,7 @@ export default function Footer() {
       </div>
 
       {/* Footer content */}
-      <div className="relative z-10">
+      <div className="relative z-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 sm:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-3">Du Học Nhật Bản</h3>
