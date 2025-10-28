@@ -116,3 +116,28 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Snowfall animation */
+@keyframes snowfall {
+  from {
+    transform: translateY(-10vh) translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100vh) translateX(100px);
+    opacity: 0;
+  }
+}
+
+.snowflake {
+  position: absolute;
+  color: white;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+  user-select: none;
+  pointer-events: none;
+  line-height: 1;
+}
+
+.snowflake-container {
+  z-index: 1;
+}
