@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export default function HomeHighlights() {
   const majors = [
-    { src: "/images/cntt.jpg", title: "Công nghệ thông tin" },
-    { src: "/images/cokhi.jpg", title: "Cơ khí" },
-    { src: "/images/dieuduong.jpg", title: "Điều dưỡng" },
-    { src: "/images/nhahang.jpg", title: "Nhà hàng - Khách sạn" },
-    { src: "/images/xaydung.jpg", title: "Xây dựng" },
+    { src: "/tuvanduhoc/public/images/cntt.jpg", title: "Công nghệ thông tin" },
+    { src: "/tuvanduhoc/public/images/cokhi.jpg", title: "Cơ khí" },
+    { src: "/tuvanduhoc/public/images/dieuduong.jpg", title: "Điều dưỡng" },
+    { src: "/tuvanduhoc/public/images/nhahang.jpg", title: "Nhà hàng - Khách sạn" },
+    { src: "/tuvanduhoc/public/images/xaydung.jpg", title: "Xây dựng" },
   ];
   const schools = [
-    { src: "/images/mitokokusai.jpg", title: "Mito Kokusai" },
-    { src: "/images/truong-nhat-ngu-akamonkai.jpg", title: "Akamonkai" },
-    { src: "/images/truong-nhat-ngu-yono-gakuin.jpg", title: "Yono Gakuin" },
+    { src: "/tuvanduhoc/public/images/mitokokusai.jpg", title: "Mito Kokusai" },
+    { src: "/tuvanduhoc/public/images/truong-nhat-ngu-akamonkai.jpg", title: "Akamonkai" },
+    { src: "/tuvanduhoc/public/images/truong-nhat-ngu-yono-gakuin.jpg", title: "Yono Gakuin" },
   ];
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

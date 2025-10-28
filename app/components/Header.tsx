@@ -37,7 +37,7 @@ export default function Header() {
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-3">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/images/logo-japan.png" alt="Logo" width={44} height={44} />
+              <Image src="/tuvanduhoc/public/images/logo-japan.png" alt="Logo" width={44} height={44} />
               <span className="text-base sm:text-lg font-semibold text-sky-800">Du Học Nhật Bản</span>
             </Link>
           </div>

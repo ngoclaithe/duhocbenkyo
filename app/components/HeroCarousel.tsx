@@ -10,9 +10,9 @@ type Slide = {
 
 export default function HeroCarousel() {
   const slides: Slide[] = [
-    { image: "/images/banner1.jpg", alt: "Banner 1" },
-    { image: "/images/banner2.png", alt: "Banner 2" },
-    { image: "/images/banner3.jpg", alt: "Banner 3" },
+    { image: "/tuvanduhoc/public/images/banner1.jpg", alt: "Banner 1" },
+    { image: "/tuvanduhoc/public/images/banner2.png", alt: "Banner 2" },
+    { image: "/tuvanduhoc/public/images/banner3.jpg", alt: "Banner 3" },
   ];
 
   const [index, setIndex] = useState(0);
