@@ -3,9 +3,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { majors } from "@/app/data/majors";
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [majorsOpen, setMajorsOpen] = useState(false);
   return (
     <header className="w-full shadow-sm bg-white">
       {/* Top info bar */}
@@ -50,7 +52,37 @@ export default function Header() {
             <Link className="hover:text-sky-700" href="/">Trang chủ</Link>
             <Link className="hover:text-sky-700" href="/gioi-thieu">Giới thiệu</Link>
             <Link className="hover:text-sky-700" href="/du-hoc-nhat-ban/truong-nhat-ngu">Du học Nhật Bản</Link>
-            <Link className="hover:text-sky-700" href="/thong-tin-nganh-hoc">Thông tin ngành học</Link>
+
+            {/* Majors Dropdown */}
+            <div className="relative">
+              <button
+                className="hover:text-sky-700 flex items-center gap-1"
+                onClick={() => setMajorsOpen(!majorsOpen)}
+              >
+                Thông tin ngành học
+                <svg className={`h-4 w-4 transition-transform ${majorsOpen ? 'rotate-180' : ''}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                </svg>
+              </button>
+
+              {majorsOpen && (
+                <div className="absolute top-full left-0 mt-2 bg-white border border-sky-200 rounded-lg shadow-lg z-50 min-w-64">
+                  <div className="py-2">
+                    {majors.map((major) => (
+                      <Link
+                        key={major.id}
+                        href={`/thong-tin-nganh-hoc/${major.slug}`}
+                        className="block px-4 py-2 hover:bg-sky-50 hover:text-sky-700 transition-colors"
+                        onClick={() => setMajorsOpen(false)}
+                      >
+                        {major.title}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
             <Link className="hover:text-sky-700" href="/tin-tuc">Tin tức</Link>
             <Link className="hover:text-sky-700" href="/lien-he">Liên hệ</Link>
             <div className="ml-2 flex items-center">
@@ -71,7 +103,34 @@ export default function Header() {
               <Link className="py-2 border-t" href="/" onClick={() => setMobileOpen(false)}>Trang chủ</Link>
               <Link className="py-2 border-t" href="/gioi-thieu" onClick={() => setMobileOpen(false)}>Giới thiệu</Link>
               <Link className="py-2 border-t" href="/du-hoc-nhat-ban/truong-nhat-ngu" onClick={() => setMobileOpen(false)}>Du học Nhật Bản</Link>
-              <Link className="py-2 border-t" href="/thong-tin-nganh-hoc" onClick={() => setMobileOpen(false)}>Thông tin ngành học</Link>
+              <div className="py-2 border-t">
+                <button
+                  className="w-full text-left flex items-center justify-between hover:text-sky-700"
+                  onClick={() => setMajorsOpen(!majorsOpen)}
+                >
+                  Thông tin ngành học
+                  <svg className={`h-4 w-4 transition-transform ${majorsOpen ? 'rotate-180' : ''}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                  </svg>
+                </button>
+                {majorsOpen && (
+                  <div className="mt-2 pl-4 space-y-2">
+                    {majors.map((major) => (
+                      <Link
+                        key={major.id}
+                        href={`/thong-tin-nganh-hoc/${major.slug}`}
+                        className="block py-1 hover:text-sky-700"
+                        onClick={() => {
+                          setMobileOpen(false);
+                          setMajorsOpen(false);
+                        }}
+                      >
+                        {major.title}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
               <Link className="py-2 border-t" href="/tin-tuc" onClick={() => setMobileOpen(false)}>Tin tức</Link>
               <Link className="py-2 border-t" href="/lien-he" onClick={() => setMobileOpen(false)}>Liên hệ</Link>
             </div>
