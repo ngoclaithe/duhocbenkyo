@@ -10,9 +10,9 @@ export default function HomeHighlights() {
     { src: "/tuvanduhoc/public/images/xaydung.jpg", title: "Xây dựng" },
   ];
   const schools = [
-    { src: "/images/mitokokusai.jpg", title: "Mito Kokusai" },
-    { src: "/images/truong-nhat-ngu-akamonkai.jpg", title: "Akamonkai" },
-    { src: "/images/truong-nhat-ngu-yono-gakuin.jpg", title: "Yono Gakuin" },
+    { src: "/tuvanduhoc/public/images/mitokokusai.jpg", title: "Mito Kokusai" },
+    { src: "/tuvanduhoc/public/images/truong-nhat-ngu-akamonkai.jpg", title: "Akamonkai" },
+    { src: "/tuvanduhoc/public/images/truong-nhat-ngu-yono-gakuin.jpg", title: "Yono Gakuin" },
   ];
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
