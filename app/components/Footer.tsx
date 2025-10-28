@@ -7,14 +7,19 @@ export default function Footer() {
   const [snowflakes, setSnowflakes] = useState<Array<{ id: number; left: number; delay: number; duration: number; size: number }>>([]);
 
   useEffect(() => {
-    const flakes = Array.from({ length: 80 }, (_, i) => ({
-      id: i,
-      left: Math.random() * 100,
-      delay: Math.random() * 5,
-      duration: 10 + Math.random() * 8,
-      size: 8 + Math.random() * 12,
-    }));
-    setSnowflakes(flakes);
+    const timer = setTimeout(() => {
+      const flakes = Array.from({ length: 80 }, (_, i) => ({
+        id: i,
+        left: Math.random() * 100,
+        delay: Math.random() * 5,
+        duration: 10 + Math.random() * 8,
+        size: 8 + Math.random() * 12,
+      }));
+      setSnowflakes(flakes);
+    }, 0);
+
+    // Cleanup timer
+    return () => clearTimeout(timer);
   }, []);
 
   return (
@@ -49,7 +54,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm opacity-95">
               <li>Địa chỉ: 1073/23 CMTE, Q.7, Tân Bình, TP.HCM</li>
               <li>Hotline: <a className="underline" href="tel:+849769220162">076 922 0162</a></li>
-              <li>Email: <a className="underline" href="mailto:info@autem.global">info@autem.global</a></li>
+              <li>Email: <a className="underline" href="mailto:info@autglowteam">info@autglowteam</a></li>
             </ul>
           </div>
           <div>

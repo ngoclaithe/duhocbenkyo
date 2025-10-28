@@ -22,9 +22,9 @@ export default function Header() {
               <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V21a1 1 0 01-1 1C10.07 22 2 13.93 2 3a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z"/></svg>
               <span>(+84) 976 922 0162</span>
             </a>
-            <a href="mailto:info@autem.global" className="flex items-center gap-2 hover:underline">
+            <a href="mailto:info@autglowteam" className="flex items-center gap-2 hover:underline">
               <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 13L2 6.76V18a2 2 0 002 2h16a2 2 0 002-2V6.76L12 13zM12 11L22 5H2l10 6z"/></svg>
-              <span>info@autem.global</span>
+              <span>info@autglowteam</span>
             </a>
           </div>
           <div className="hidden sm:flex items-center gap-3">

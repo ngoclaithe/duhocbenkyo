@@ -39,8 +39,8 @@ export default function LienHe() {
     {
       icon: "✉️",
       title: "Email",
-      content: "info@autem.global",
-      href: "mailto:info@autem.global",
+      content: "info@autglowteam",
+      href: "mailto:info@autglowteam",
     },
     {
       icon: "🕐",

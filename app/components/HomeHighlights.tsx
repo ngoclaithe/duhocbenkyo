@@ -217,7 +217,10 @@ export default function HomeHighlights() {
                   </div>
                 </div>
               </div>
-              <p className="text-sm text-slate-700 leading-relaxed italic">"{review.text}"</p>
+              {/* Đã sửa lỗi dấu ngoặc kép ở đây */}
+              <p className="text-sm text-slate-700 leading-relaxed italic">
+                &ldquo;{review.text}&rdquo;
+              </p>
             </div>
           ))}
         </div>
