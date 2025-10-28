@@ -13,7 +13,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm opacity-95">
             <li>Địa chỉ: 1073/23 CMTE, Q.7, Tân Bình, TP.HCM</li>
             <li>Hotline: <a className="underline" href="tel:+849769220162">076 922 0162</a></li>
-            <li>Email: <a className="underline" href="mailto:info@themona.global">info@themona.global</a></li>
+            <li>Email: <a className="underline" href="mailto:info@auteam">info@autem.global</a></li>
           </ul>
         </div>
         <div>
