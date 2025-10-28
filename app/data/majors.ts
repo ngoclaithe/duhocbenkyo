@@ -26,7 +26,7 @@ export const majors: Major[] = [
     slug: "dieu-duong",
     title: "Thực tập sinh Điều dưỡng tại Nhật Bản",
     shortDescription: "Chương trình đào tạo điều dưỡng chuyên nghiệp tại Nhật Bản với lương hấp dẫn",
-    image: "/images/nursing.jpg",
+    image: "/images/dieuduong.jpg",
     description: "Chương trình Thực tập sinh Điều Dưỡng Nhật Bản hay còn gọi l�� Xuất khẩu lao động ngành Điều dưỡng tại Nhật Bản là chương trình chính thức có hiệu lực từ ngày 1/11/2017",
     content: `Chương trình Thực tập sinh Điều Dưỡng Nhật Bản hay còn gọi là Xuất khẩu lao động ngành Điều dưỡng tại Nhật Bản là chương trình chính thức có hiệu lực từ ngày 1/11/2017, cho phép người lao động Việt Nam có cơ hội sang làm việc tại trong lĩnh vực Điều dưỡng tại các cơ sở y tế và viện dưỡng lão ở Nhật Bản.
 
@@ -136,7 +136,7 @@ Không còn nghi ngờ gì nữa, công nghệ thông tin hứa hẹn sẽ là n
     description: "Tại sao nên du học Nhật Bản ngành du lịch nhà hàng khách sạn - Cơ hội phát triển kỹ năng quản lý",
     content: `Chúng ta đều biết, Nhật Bản là một trong những quốc gia có nền giáo dục tiên tiến hàng đầu trên thế giới. Chương trình đào tạo tại Nhật không chỉ chú trọng tới việc cung cấp kiến thức cho sinh viên mà muốn đào tạo lực lượng lao động có trình độ chuyên môn và kỹ năng thực chất cho xã hội. Lựa chọn du học Nhật Bản ngành du lịch nhà hàng khách sạn không chỉ cho các bạn cơ hội tiếp xúc và học tập trong nền giáo dục tiên tiến mà còn là cơ hội giúp các bạn được rèn luyện bản thân, học hỏi tính chỉn chu và nguyên tắc làm việc chuyên nghiệp của người Nhật.
 
-Không chỉ nổi tiếng về giáo dục, xứ sở hoa anh đào còn là điểm đến thu hút khách du lịch đông nhất trên thế giới. Du khách tới đây sẽ được chiêm ngưỡng những kiến trúc tuyệt đẹp, những nét văn hóa dân tộc vẫn được gìn giữ và phát huy một cách tích cực. Với môi trường du lịch phát triển như vậy, sinh viên ngành du lịch tại Nhật Bản sẽ nhanh chóng nắm bắt và xây dựng cho bản thân những kỹ năng công việc cần thiết. Quan trọng hơn các bạn sinh viên quốc tế du học ngành du lịch tại Nhật Bản sẽ học hỏi được những điều tuyệt vời trong việc gìn giữ giá trị truyền thống, cách phát huy và thúc đẩy văn hóa dân tộc tới với bạn bè thế giới, phương pháp kinh doanh du lịch thông minh của người Nhật,…
+Không chỉ nổi tiếng về giáo dục, xứ sở hoa anh đào còn là điểm đến thu hút khách du lịch đông nhất trên thế giới. Du khách tới đây sẽ được chiêm ngưỡng những kiến trúc tuyệt đẹp, những nét văn hóa dân t��c vẫn được gìn giữ và phát huy một cách tích cực. Với môi trường du lịch phát triển như vậy, sinh viên ngành du lịch tại Nhật Bản sẽ nhanh chóng nắm bắt và xây dựng cho bản thân những kỹ năng công việc cần thiết. Quan trọng hơn các bạn sinh viên quốc tế du học ngành du lịch tại Nhật Bản sẽ học hỏi được những điều tuyệt vời trong việc gìn giữ giá trị truyền thống, cách phát huy và thúc đẩy văn hóa dân tộc tới với bạn bè thế giới, phương pháp kinh doanh du lịch thông minh của người Nhật,…
 
 Đặc biệt, các bạn sinh viên khi du học Nhật Bản ngành du lịch nhà hàng khách sạn sẽ có cơ hội được làm thêm trong thời gian học tập. Đây chính là cơ hội tuyệt vời để các bạn thực hành và học hỏi những kinh nghiệm thực tế từ các anh chị đi trước. Những công việc làm thêm tuy không mang lại nguồn thu nhập quá lớn nhưng là cơ hội tuyệt vời mà không phải ai cũng có được, nhất là với sinh viên học ngành du lịch. Các bạn có thể làm hướng dẫn viên cho khách nước ngoài tới Nhật Bản (trong đó có những đoàn du lịch từ Việt Nam sang Nhật) hoặc cho chính khách Nhật Bản đi tham quan trong nước. Các bạn sẽ vừa được khám phá n��ớc Nhật miễn phí, vừa được học hỏi kinh nghiệm, nâng cao khả năng ngoại ngữ và làm giàu kiến thức cho bản thân.
 
@@ -272,7 +272,7 @@ Du học ngành y tế tại Nhật Bản không chỉ phát triển sự nghi�
       title: "Điều kiện du học",
       items: [
         "Tốt nghiệp trung học phổ thông với kết quả xuất sắc",
-        "Có nền tảng mạnh về sinh học, hóa học, vật lý",
+        "Có nền t���ng mạnh về sinh học, hóa học, vật lý",
         "Chứng chỉ tiếng Nhật N2 trở lên",
         "Vượt qua kỳ thi EJU với điểm cao",
         "Có sức khỏe tốt và tâm huyết với ngành y tế"
