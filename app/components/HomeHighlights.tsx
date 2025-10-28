@@ -26,6 +26,7 @@ export default function HomeHighlights() {
   const majors = [
     { src: "/images/cntt.jpg", title: "Công nghệ thông tin" },
     { src: "/images/cokhi.jpg", title: "Cơ khí" },
+    { src: "/images/daubep.jpg", title: "Dâu bếp" },
     { src: "/images/dieuduong.jpg", title: "Điều dưỡng" },
     { src: "/images/nhahang.jpg", title: "Nhà hàng - Khách sạn" },
     { src: "/images/xaydung.jpg", title: "Xây dựng" },
@@ -74,7 +75,7 @@ export default function HomeHighlights() {
         }`}
       >
         <div className="featured-service-card bg-rose-600 text-white p-6 shadow">
-          <h3 className="text-lg font-semibold">Tư vấn hồ sơ</h3>
+          <h3 className="text-lg font-semibold">Tư vấn h�� sơ</h3>
           <p className="text-sm opacity-90 mt-1">Hỗ trợ miễn phí chuẩn bị và xử lý hồ sơ du học.</p>
         </div>
         <div className="featured-service-card bg-sky-700 text-white p-6 shadow">
