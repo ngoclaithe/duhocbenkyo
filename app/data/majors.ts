@@ -27,10 +27,10 @@ export const majors: Major[] = [
     title: "Thực tập sinh Điều dưỡng tại Nhật Bản",
     shortDescription: "Chương trình đào tạo điều dưỡng chuyên nghiệp tại Nhật Bản với lương hấp dẫn",
     image: "/images/dieuduong.jpg",
-    description: "Chương trình Thực tập sinh Điều Dưỡng Nhật Bản hay còn g���i l�� Xuất khẩu lao động ngành Điều dưỡng tại Nhật Bản là chương trình chính thức có hiệu lực từ ngày 1/11/2017",
+    description: "Chương trình Thực tập sinh Điều Dưỡng Nhật Bản hay còn gọi l�� Xuất khẩu lao động ngành Điều dưỡng tại Nhật Bản là chương trình chính thức có hiệu lực từ ngày 1/11/2017",
     content: `Chương trình Thực tập sinh Điều Dưỡng Nhật Bản hay còn gọi là Xuất khẩu lao động ngành Điều dưỡng tại Nhật Bản là chương trình chính thức có hiệu lực từ ngày 1/11/2017, cho phép người lao động Việt Nam có cơ hội sang làm việc tại trong lĩnh vực Điều dưỡng tại các cơ sở y tế và viện dưỡng lão ở Nhật Bản.
 
-Nhu cầu lao động điều dưỡng của Nhật Bản ngày càng tăng cao, dự kiến từ nay tới năm 2025 nước này sẽ thiếu hụt khoảng 380.000 lao động làm việc trong lĩnh vực điều dưỡng, hộ lý, chăm sóc người cao tuổi. Do đó, Chính phủ Nhật Bản đã phê duyệt dự thảo đưa ngành Điều Dưỡng vào trong danh sách các nhóm ngành được phép tuyển chọn theo diện xuất khẩu lao động (thực tập sinh kỹ năng).
+Nhu cầu lao động điều dưỡng của Nhật Bản ngày càng tăng cao, dự kiến từ nay tới năm 2025 nước này s��� thiếu hụt khoảng 380.000 lao động làm việc trong lĩnh vực điều dưỡng, hộ lý, chăm sóc người cao tuổi. Do đó, Chính phủ Nhật Bản đã phê duyệt dự thảo đưa ngành Điều Dưỡng vào trong danh sách các nhóm ngành được phép tuyển chọn theo diện xuất khẩu lao động (thực tập sinh kỹ năng).
 
 CEO Dịch Vụ tự hào là một trong những doanh nghiệp đầu tiên được Bộ lao động thương Binh và Xã hội cho phép tuyển chọn lao động Việt Nam sang Nhật Bản theo chương trình này. Với cơ sở vật chất và quy trình đào tạo đảm bảo theo tiêu chuẩn Nhật Bản, CEO Dịch Vụ cam kết giúp người lao động Việt Nam được trau dồi kiến thức cần thiết và khả năng ngôn ngữ tốt nhất để có thể đáp ứng được các yêu cầu tuyển dụng khắt khe từ phía các đối tác Nhật Bản.`,
     conditions: {
@@ -38,7 +38,7 @@ CEO Dịch Vụ tự hào là một trong những doanh nghiệp đầu tiên đ
       items: [
         "Nam, nữ tốt nghiệp THPT trở lên (ưu tiên tốt nghiệp các trường Y – Dược – Điều Dưỡng). Tuổi từ 18 – 35.",
         "Nam: cao từ 1,62m trở lên, nặng từ 55kg trở lên",
-        "Nữ: cao từ 1,50m trở lên, nặng từ 42kg trở lên",
+        "Nữ: cao từ 1,50m trở lên, n���ng từ 42kg trở lên",
         "Có sức khỏe tốt, không có dị tật, không mắc các bệnh truyền nhiễm, HIV…",
         "Chưa từng tham gia chương trình thực tập sinh kỹ năng tại Nhật Bản, chưa từng xin visa vào Nhật Bản.",
         "Ưu tiên ứng viên có kinh nghiệm theo ngành nghề điều dưỡng.",
@@ -52,7 +52,7 @@ CEO Dịch Vụ tự hào là một trong những doanh nghiệp đầu tiên đ
         "Ký hợp đồng lao động từ 3 – 5 năm. Được hưởng mọi chế độ theo quy định của Chính phủ Nhật Bản",
         "Được làm việc tại các Bệnh viện lớn, các Trung tâm dưỡng lão chất lượng cao tại Nhật Bản",
         "Được làm việc trong môi trường Chuyên nghiệp, hiện đại với các chuyên gia, giáo sư, bác sĩ hàng đầu ngành Điều dưỡng tại Nhật Bản",
-        "Được nâng cao tay nghề, phát triển trình độ chuyên môn ngành Điều dưỡng",
+        "Được nâng cao tay nghề, phát tri���n trình độ chuyên môn ngành Điều dưỡng",
         "Được học tập kỹ năng và phong cách làm việc chuyên nghiệp của người Nhật Bản",
         "Có cơ hội đạt chuẩn trình độ tiếng Nhật N2 trở lên",
         "Nhiều cơ hội việc làm với mức lương tốt sau khi về nước"
@@ -62,7 +62,7 @@ CEO Dịch Vụ tự hào là một trong những doanh nghiệp đầu tiên đ
       title: "Công việc",
       items: [
         "Chăm sóc thân thể bệnh nhân (hỗ trợ tắm, ăn uống, vệ sinh, thay đồ, di chuyển,…)",
-        "Vận chuyển các mẫu, kết quả xét nghiệm, các loại đ��n, phiếu",
+        "Vận chuyển các mẫu, kết quả xét nghiệm, các loại đơn, phiếu",
         "Tiếp nhận thuốc",
         "Làm vệ sinh phòng bệnh, dụng cụ y tế, vệ sinh dụng cụ vệ sinh, tiêu độc, dọn dẹp",
         "Mang trà, mang cơm và dọn khay cơm",
@@ -95,7 +95,7 @@ Sau khi tốt nghiệp ngành công nghệ thông tin thì có những cơ hội
 
 Như đã nói ở trên thì công nghệ thông tin hứa hẹn sẽ mang đến cho bạn những cơ hội việc làm triển vọng với mức lương hậu hĩnh. Có kiến thức về công nghệ thông tin trong tay thì các bạn sẽ đúng như câu nói "vứt ở đâu cũng sống", một bầu trời rộng mở đang chờ đón các bạn. Theo thống kê thì cứ mỗi năm, nhu cầu nhân lực trong ngành công nghệ thông tin tăng 13%. Hơn thế nữa, công nghệ thông tin lại là một ngành rất ổn định vì không chịu nhiều ảnh hưởng của suy thoái hay khủng hoảng kinh tế, nên việc làm cho lao động cũng hết sức ổn định.
 
-Nếu các bạn quyết định sẽ ��� lại Nhật Bản làm việc thì đó là một sự lựa chọn cũng hết sức sáng suốt vì Nhật Bản là một thị trường béo bở, đang rất cần những kỹ sư tin học có tay nghề. Bạn sẽ rất được săn đón ở các công ty điện tử, phần mềm… nếu bạn nắm trong tay một tấm bằng ngành công nghệ thông tin chất lượng.
+Nếu các bạn quyết định sẽ ở lại Nhật Bản làm việc thì đó là một sự lựa chọn cũng hết sức sáng suốt vì Nhật Bản là một thị trường béo bở, đang rất cần những kỹ sư tin học có tay nghề. Bạn sẽ rất được săn đón ở các công ty điện tử, phần mềm… nếu bạn nắm trong tay một tấm bằng ngành công nghệ thông tin chất lượng.
 
 Điều kiện du học Nhật Bản ngành công nghệ thông tin là gì?
 
@@ -136,9 +136,9 @@ Không còn nghi ngờ gì nữa, công nghệ thông tin hứa hẹn sẽ là n
     description: "Tại sao nên du học Nhật Bản ngành du lịch nhà hàng khách sạn - Cơ hội phát triển kỹ năng quản lý",
     content: `Chúng ta đều biết, Nhật Bản là một trong những quốc gia có nền giáo dục tiên tiến hàng đầu trên thế giới. Chương trình đào tạo tại Nhật không chỉ chú trọng tới việc cung cấp kiến thức cho sinh viên mà muốn đào tạo lực lượng lao động có trình độ chuyên môn và kỹ năng thực chất cho xã hội. Lựa chọn du học Nhật Bản ngành du lịch nhà hàng khách sạn không chỉ cho các bạn cơ hội tiếp xúc và học tập trong nền giáo dục tiên tiến mà còn là cơ hội giúp các bạn được rèn luyện bản thân, học hỏi tính chỉn chu và nguyên tắc làm việc chuyên nghiệp của người Nhật.
 
-Không chỉ nổi tiếng về giáo dục, xứ sở hoa anh đào còn là điểm đến thu hút khách du lịch đông nhất trên thế giới. Du khách tới đây sẽ được chiêm ngưỡng những kiến trúc tuyệt đẹp, những nét văn hóa dân tộc vẫn được gìn giữ và phát huy một cách tích cực. Với môi trường du lịch phát tri���n như vậy, sinh viên ngành du lịch tại Nhật Bản sẽ nhanh chóng nắm bắt và xây dựng cho bản thân những kỹ năng công việc cần thiết. Quan trọng hơn các bạn sinh viên quốc tế du học ngành du lịch tại Nhật Bản sẽ học hỏi được những điều tuyệt vời trong việc gìn giữ giá trị truyền thống, cách phát huy và thúc đẩy văn hóa dân tộc tới với bạn bè thế giới, phương pháp kinh doanh du lịch thông minh của người Nhật,…
+Không chỉ nổi tiếng về giáo dục, xứ sở hoa anh đào còn là điểm đến thu hút khách du lịch đông nhất trên thế giới. Du khách tới đây sẽ được chiêm ngưỡng những kiến trúc tuyệt đẹp, những nét văn hóa dân tộc vẫn được gìn giữ và phát huy một cách tích cực. Với môi trường du lịch phát triển như vậy, sinh viên ngành du lịch tại Nhật Bản sẽ nhanh chóng nắm bắt và xây dựng cho bản thân những kỹ năng công việc cần thiết. Quan trọng hơn các bạn sinh viên quốc tế du học ngành du lịch tại Nhật Bản sẽ học hỏi được những điều tuyệt vời trong việc gìn giữ giá trị truyền thống, cách phát huy và thúc đẩy văn hóa dân tộc tới với bạn bè thế giới, phương pháp kinh doanh du lịch th��ng minh của người Nhật,…
 
-Đặc biệt, các bạn sinh viên khi du học Nhật Bản ngành du lịch nhà hàng khách sạn sẽ có cơ hội được làm thêm trong thời gian học tập. Đây chính là cơ hội tuyệt vời để các bạn thực hành và học hỏi những kinh nghiệm thực tế từ các anh chị đi trước. Những công việc làm thêm tuy không mang lại nguồn thu nhập quá lớn nhưng là cơ hội tuyệt vời mà không phải ai cũng có được, nhất là với sinh viên học ngành du lịch. Các bạn có thể làm hướng dẫn viên cho khách nước ngoài tới Nhật Bản (trong đó có những đoàn du lịch từ Việt Nam sang Nhật) hoặc cho chính khách Nhật Bản đi tham quan trong nước. Các bạn sẽ vừa đ��ợc khám phá n��ớc Nhật miễn phí, vừa được học hỏi kinh nghiệm, nâng cao khả năng ngoại ngữ và làm giàu kiến thức cho bản thân.
+Đặc biệt, các bạn sinh viên khi du học Nhật Bản ngành du lịch nhà hàng khách sạn sẽ có cơ hội được làm thêm trong thời gian học tập. Đây chính là cơ hội tuyệt vời để các bạn thực hành và học hỏi những kinh nghiệm thực tế từ các anh chị đi trước. Những công việc làm thêm tuy không mang lại nguồn thu nhập quá lớn nhưng là cơ hội tuyệt vời mà không phải ai cũng có được, nhất là với sinh viên học ngành du lịch. Các bạn có thể làm hướng dẫn viên cho khách nước ngoài tới Nhật Bản (trong đó có những đoàn du lịch từ Việt Nam sang Nhật) hoặc cho chính khách Nhật Bản đi tham quan trong nước. Các bạn sẽ vừa được khám phá n��ớc Nhật miễn phí, vừa được học hỏi kinh nghiệm, nâng cao khả năng ngoại ngữ và làm giàu kiến thức cho bản thân.
 
 Du học Nhật Bản ngành du lịch nhà hàng khách sạn có những chuyên ngành gì
 
@@ -161,7 +161,7 @@ Khi lựa chọn du học Nhật Bản ngành du lịch nhà hàng khách sạn 
 
 – Đã tốt nghiệp trung học phổ thông hoặc đại học
 – Có kết quả học tập đạt loại khá trở lên
-– Có chứng chỉ tiếng Nhật N2 trở lên. Sở hữu chứng chỉ tiếng Nhật sẽ mang lại cho bạn rất nhiều l��i thế như cơ hội nhận học bổng du học Nhật Bản, cơ hội xin thực tập/ làm thêm một cách dễ dàng hơn,…
+– Có chứng chỉ tiếng Nhật N2 trở lên. Sở hữu chứng chỉ tiếng Nhật sẽ mang lại cho bạn rất nhiều lợi thế như cơ hội nhận học bổng du học Nhật Bản, cơ hội xin thực tập/ làm thêm một cách dễ dàng hơn,…
 – Thi đỗ kì thi tuyển sinh đại học cho học sinh quốc tế của Nhật Bản (EJU).`,
     conditions: {
       title: "Điều kiện du học",
@@ -193,7 +193,7 @@ Khi lựa chọn du học Nhật Bản ngành du lịch nhà hàng khách sạn 
     description: "Du học Nhật Bản ngành xây dựng kiến trúc - Nước tiên phong trong công nghệ xây dựng thế giới",
     content: `Nhật Bản được biết đến là một đất nước có nền công nghiệp xây dựng vô cùng phát triển và tiên tiến. Đây là một trong những quốc gia có nhiều tòa nhà chọc trời, cầu treo hiện đại nhất trên thế giới. Nếu bạn đam mê kiến trúc và xây dựng, du học Nhật Bản sẽ là lựa chọn tuyệt vời để phát triển sự nghiệp của bạn.
 
-Các trường đại học tại Nhật Bản cung cấp các chương trình đào tạo chất lượng cao về xây dựng, kiến trúc, và thiết kế nội thất. Sinh viên sẽ được học tập từ các giáo sư nổi tiếng, sử dụng các thiết bị và công nghệ mới nhất trong ngành.
+Các trường đại học tại Nhật Bản cung cấp các chương trình đào tạo ch��t lượng cao về xây dựng, kiến trúc, và thiết kế nội thất. Sinh viên sẽ được học tập từ các giáo sư nổi tiếng, sử dụng các thiết bị và công nghệ mới nhất trong ngành.
 
 Với nền kinh tế mạnh mẽ và nhu cầu lao động cao, các cử nhân ngành xây dựng tốt nghiệp từ Nhật Bản được các công ty lớn trên thế giới cấp rất cao. Lương khởi điểm cho vị trí kỹ sư xây dựng tại Nhật Bản và quốc tế rất cạnh tranh.
 
@@ -259,11 +259,11 @@ Nông nghiệp công nghệ cao không chỉ là một lĩnh vực kinh tế qua
     slug: "phuong-tay-y",
     title: "Phương tây y - Y tế",
     shortDescription: "Du học ngành y tế và khoa học sức khỏe tại Nhật Bản",
-    image: "/images/medicine.jpg",
-    description: "Du học Nhật Bản ngành y tế - Học tập y khoa tại quốc gia có nền y t�� hàng đầu thế giới",
+    image: "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg",
+    description: "Du học Nhật Bản ngành y tế - Học tập y khoa tại quốc gia có nền y tế hàng đầu thế giới",
     content: `Hệ thống y tế của Nhật Bản được xem là một trong những hệ thống y tế tốt nhất trên thế giới, với công nghệ tân tiến, các bác sĩ giàu kinh nghiệm, và mức độ chăm sóc bệnh nhân xuất sắc. Du học ngành y tế tại Nhật Bản cung cấp cho bạn cơ hội học tập những kiến thức y học hiện đại và kỹ năng lâm sàng cao cấp.
 
-Các trường đại học y khoa tại Nhật Bản cung cấp các chương trình đào tạo bao gồm y khoa, điều dưỡng, dược học, kỹ thuật y tế, và phục hồi chức năng. Sinh viên sẽ được học tập từ các giáo sư hàng đầu và thực tập tại các bệnh viện lớn nhất của Nhật Bản.
+Các trường đại học y khoa tại Nhật Bản cung cấp các chương trình đào tạo bao gồm y khoa, điều dưỡng, dược học, kỹ thuật y tế, và phục h��i chức năng. Sinh viên sẽ được học tập từ các giáo sư hàng đầu và thực tập tại các bệnh viện lớn nhất của Nhật Bản.
 
 Sau khi tốt nghiệp, bạn có cơ hội làm việc tại các bệnh viện, phòng khám, trung tâm nghiên cứu y tế, hoặc công ty dược phẩm. Mức lương cho các chuyên gia y tế tại Nhật Bản rất cạnh tranh, đặc biệt là các vị trí chuyên khoa.
 
