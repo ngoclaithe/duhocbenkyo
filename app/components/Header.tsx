@@ -54,44 +54,55 @@ export default function Header() {
             <Link className="hover:text-sky-700" href="/du-hoc-nhat-ban/truong-nhat-ngu">Du học Nhật Bản</Link>
 
             {/* Majors Dropdown */}
-            <div className="relative group">
+            <div className="relative">
               <button
-                className="hover:text-sky-700 flex items-center gap-1 px-3 py-2 rounded-md hover:bg-sky-50 transition-all duration-200"
+                className="hover:text-sky-700 flex items-center gap-2 px-3 py-2 rounded-md hover:bg-sky-50 transition-all duration-300"
                 onClick={() => setMajorsOpen(!majorsOpen)}
               >
                 <span>Thông tin ngành học</span>
-                <span className={`transition-transform duration-300 inline-block ${majorsOpen ? 'rotate-180' : ''}`}>^</span>
+                <span className={`text-sm transition-transform duration-500 inline-block origin-center ${majorsOpen ? 'rotate-180 scale-110' : ''}`}>▼</span>
               </button>
 
               {majorsOpen && (
-                <div className="absolute top-full left-0 mt-1 bg-white border border-sky-200 rounded-lg shadow-xl z-50 min-w-72 animate-in fade-in slide-in-from-top-2 duration-200">
-                  <div className="py-2 space-y-0">
+                <div className="absolute top-full left-0 mt-2 bg-white border border-sky-200 rounded-lg shadow-2xl z-50 min-w-72 overflow-hidden animate-in fade-in zoom-in-95 duration-300">
+                  <div className="max-h-96 overflow-y-auto space-y-0">
                     {majors.map((major, idx) => (
                       <Link
                         key={major.id}
                         href={`/thong-tin-nganh-hoc/${major.slug}`}
-                        className="flex items-start gap-3 px-4 py-3 hover:bg-sky-50 transition-colors duration-150 border-b border-sky-100 last:border-b-0 group/item"
+                        className="flex items-start gap-3 px-4 py-3 hover:bg-gradient-to-r hover:from-sky-50 hover:to-blue-50 transition-all duration-200 border-b border-sky-50 last:border-b-0 group/item"
                         onClick={() => setMajorsOpen(false)}
+                        style={{
+                          animation: majorsOpen ? `slideDown 0.3s ease-out ${idx * 30}ms forwards` : 'none',
+                          opacity: majorsOpen ? 1 : 0,
+                        }}
                       >
-                        <div className="mt-0.5 text-sky-600 group-hover/item:text-sky-700 flex-shrink-0">
-                          <span className="text-lg">
-                            {idx === 0 ? '🏥' : idx === 1 ? '💻' : idx === 2 ? '🍽️' : idx === 3 ? '🏗️' : idx === 4 ? '🌾' : '⚕️'}
-                          </span>
+                        <div className="mt-0.5 text-xl flex-shrink-0">
+                          {idx === 0 ? '🏥' : idx === 1 ? '💻' : idx === 2 ? '🍽️' : idx === 3 ? '🏗️' : idx === 4 ? '🌾' : '⚕️'}
                         </div>
                         <div className="flex-1 min-w-0">
-                          <p className="text-sm font-medium text-sky-900 group-hover/item:text-sky-700 truncate">
+                          <p className="text-sm font-semibold text-sky-900 group-hover/item:text-sky-700 truncate">
                             {major.title}
                           </p>
-                          <p className="text-xs text-slate-500 group-hover/item:text-slate-600 line-clamp-1 mt-0.5">
+                          <p className="text-xs text-slate-500 group-hover/item:text-slate-700 line-clamp-1 mt-1">
                             {major.shortDescription}
                           </p>
                         </div>
-                        <svg className="h-4 w-4 text-sky-400 group-hover/item:text-sky-600 flex-shrink-0 opacity-0 group-hover/item:opacity-100 transition-all duration-150" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                        </svg>
                       </Link>
                     ))}
                   </div>
+                  <style>{`
+                    @keyframes slideDown {
+                      from {
+                        opacity: 0;
+                        transform: translateY(-8px);
+                      }
+                      to {
+                        opacity: 1;
+                        transform: translateY(0);
+                      }
+                    }
+                  `}</style>
                 </div>
               )}
             </div>
